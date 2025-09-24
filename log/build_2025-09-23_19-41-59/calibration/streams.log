@@ -1,0 +1,31 @@
+[1.436s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/build --no-deps symlink_data
+[1.566s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.566s]   warnings.warn(msg)
+[1.639s] running develop
+[1.735s] running egg_info
+[1.741s] creating calibration.egg-info
+[1.741s] writing calibration.egg-info/PKG-INFO
+[1.741s] writing dependency_links to calibration.egg-info/dependency_links.txt
+[1.741s] writing entry points to calibration.egg-info/entry_points.txt
+[1.741s] writing requirements to calibration.egg-info/requires.txt
+[1.741s] writing top-level names to calibration.egg-info/top_level.txt
+[1.741s] writing manifest file 'calibration.egg-info/SOURCES.txt'
+[1.761s] reading manifest file 'calibration.egg-info/SOURCES.txt'
+[1.761s] writing manifest file 'calibration.egg-info/SOURCES.txt'
+[1.770s] running build_ext
+[1.770s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/python3.12/site-packages/calibration.egg-link (link to .)
+[1.770s] Installing calibrate_angular script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/calibration
+[1.770s] Installing calibrate_linear script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/calibration
+[1.771s] 
+[1.771s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration
+[1.771s] running symlink_data
+[1.771s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/ament_index/resource_index/packages
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/resource/calibration -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/ament_index/resource_index/packages
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration
+[1.771s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/launch/linear_calib.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/launch/angular_calib.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+[1.771s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/config/imu_calib.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config
+[1.771s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/config/bk.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config
+[1.883s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/build --no-deps symlink_data

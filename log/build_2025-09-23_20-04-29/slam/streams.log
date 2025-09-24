@@ -1,0 +1,19 @@
+[0.667s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/slam/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam/build --no-deps symlink_data
+[0.755s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.755s]   warnings.warn(msg)
+[0.815s] running develop
+[0.886s] running egg_info
+[0.894s] writing slam.egg-info/PKG-INFO
+[0.895s] writing dependency_links to slam.egg-info/dependency_links.txt
+[0.895s] writing entry points to slam.egg-info/entry_points.txt
+[0.895s] writing requirements to slam.egg-info/requires.txt
+[0.895s] writing top-level names to slam.egg-info/top_level.txt
+[0.913s] reading manifest file 'slam.egg-info/SOURCES.txt'
+[0.918s] writing manifest file 'slam.egg-info/SOURCES.txt'
+[0.924s] running build_ext
+[0.924s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/slam/lib/python3.12/site-packages/slam.egg-link (link to .)
+[0.924s] Installing map_save script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/slam/lib/slam
+[0.924s] 
+[0.924s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam
+[0.924s] running symlink_data
+[0.946s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/slam/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/slam/build --no-deps symlink_data

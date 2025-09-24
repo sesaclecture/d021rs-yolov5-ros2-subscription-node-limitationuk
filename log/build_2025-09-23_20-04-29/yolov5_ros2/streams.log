@@ -1,0 +1,19 @@
+[0.665s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolov5_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2/build --no-deps symlink_data
+[0.751s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.751s]   warnings.warn(msg)
+[0.810s] running develop
+[0.881s] running egg_info
+[0.889s] writing yolov5_ros2.egg-info/PKG-INFO
+[0.890s] writing dependency_links to yolov5_ros2.egg-info/dependency_links.txt
+[0.890s] writing entry points to yolov5_ros2.egg-info/entry_points.txt
+[0.890s] writing requirements to yolov5_ros2.egg-info/requires.txt
+[0.890s] writing top-level names to yolov5_ros2.egg-info/top_level.txt
+[0.907s] reading manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[0.907s] writing manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[0.916s] running build_ext
+[0.916s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolov5_ros2/lib/python3.12/site-packages/yolov5-ros2.egg-link (link to .)
+[0.916s] Installing yolo_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolov5_ros2/lib/yolov5_ros2
+[0.917s] 
+[0.917s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2
+[0.917s] running symlink_data
+[0.939s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolov5_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolov5_ros2/build --no-deps symlink_data

@@ -1,0 +1,39 @@
+running develop
+running egg_info
+writing example.egg-info/PKG-INFO
+writing dependency_links to example.egg-info/dependency_links.txt
+writing entry points to example.egg-info/entry_points.txt
+writing requirements to example.egg-info/requires.txt
+writing top-level names to example.egg-info/top_level.txt
+reading manifest file 'example.egg-info/SOURCES.txt'
+writing manifest file 'example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/python3.12/site-packages/example.egg-link (link to .)
+Installing automatic_pick script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_and_rgb_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_sorting script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing cross_bridge script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing fall_down_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing finger_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing garbage_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_gesture_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_trajectory script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing line_follow_clean script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing navigation_transport script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing object_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing prevent_falling script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing self_driving script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing track_and_grab script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing track_object script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing vc_object_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing vc_track_and_grab script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing yolov5_node script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+
+Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example
+running symlink_data

@@ -1,0 +1,1 @@
+['-DPython3_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3', '-DPYTHON_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1']

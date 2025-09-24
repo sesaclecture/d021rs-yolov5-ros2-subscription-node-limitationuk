@@ -1,0 +1,34 @@
+[1.454s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/build --no-deps symlink_data
+[1.563s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.563s]   warnings.warn(msg)
+[1.636s] running develop
+[1.732s] running egg_info
+[1.737s] creating controller.egg-info
+[1.737s] writing controller.egg-info/PKG-INFO
+[1.738s] writing dependency_links to controller.egg-info/dependency_links.txt
+[1.738s] writing entry points to controller.egg-info/entry_points.txt
+[1.738s] writing requirements to controller.egg-info/requires.txt
+[1.738s] writing top-level names to controller.egg-info/top_level.txt
+[1.738s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.755s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[1.756s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.765s] running build_ext
+[1.765s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/lib/python3.12/site-packages/controller.egg-link (link to .)
+[1.765s] Installing init_pose script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/lib/controller
+[1.765s] Installing odom_publisher script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/lib/controller
+[1.766s] 
+[1.766s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller
+[1.766s] running symlink_data
+[1.766s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/ament_index/resource_index/packages
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/resource/controller -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/ament_index/resource_index/packages
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller
+[1.766s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/launch
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/launch/controller.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/launch
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/launch/rf2o_laser_odometry.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/launch
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/launch/odom_publisher.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/launch
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/launch/init_pose.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/launch
+[1.766s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/config
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/config/ekf.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/config
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/config/calibrate_params.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/config
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/config/init_pose.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/share/controller/config
+[1.877s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/controller/build --no-deps symlink_data

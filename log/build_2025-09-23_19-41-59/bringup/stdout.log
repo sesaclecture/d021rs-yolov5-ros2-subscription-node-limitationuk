@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating bringup.egg-info
+writing bringup.egg-info/PKG-INFO
+writing dependency_links to bringup.egg-info/dependency_links.txt
+writing entry points to bringup.egg-info/entry_points.txt
+writing requirements to bringup.egg-info/requires.txt
+writing top-level names to bringup.egg-info/top_level.txt
+writing manifest file 'bringup.egg-info/SOURCES.txt'
+reading manifest file 'bringup.egg-info/SOURCES.txt'
+writing manifest file 'bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/python3.12/site-packages/bringup.egg-link (link to .)
+Installing startup_check script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/bringup
+
+Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup
+running symlink_data
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/resource/bringup -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/launch/bringup.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup/launch

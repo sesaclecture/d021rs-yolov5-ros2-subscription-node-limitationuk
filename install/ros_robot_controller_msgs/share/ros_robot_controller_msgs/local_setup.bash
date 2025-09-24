@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/ros_robot_controller_msgs/ament_cmake_environment_hooks/local_setup.bash

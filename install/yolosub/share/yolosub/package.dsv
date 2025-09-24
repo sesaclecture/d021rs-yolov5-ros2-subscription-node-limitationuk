@@ -1,0 +1,9 @@
+source;share/yolosub/hook/pythonpath.ps1
+source;share/yolosub/hook/pythonpath.dsv
+source;share/yolosub/hook/pythonpath.sh
+source;share/yolosub/hook/ament_prefix_path.ps1
+source;share/yolosub/hook/ament_prefix_path.dsv
+source;share/yolosub/hook/ament_prefix_path.sh
+source;../../build/yolosub/share/yolosub/hook/pythonpath_develop.ps1
+source;../../build/yolosub/share/yolosub/hook/pythonpath_develop.dsv
+source;../../build/yolosub/share/yolosub/hook/pythonpath_develop.sh

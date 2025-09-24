@@ -1,0 +1,23 @@
+[1.745s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/build --no-deps symlink_data
+[1.953s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.953s]   warnings.warn(msg)
+[2.132s] running develop
+[2.340s] running egg_info
+[2.350s] writing multi.egg-info/PKG-INFO
+[2.350s] writing dependency_links to multi.egg-info/dependency_links.txt
+[2.350s] writing entry points to multi.egg-info/entry_points.txt
+[2.350s] writing requirements to multi.egg-info/requires.txt
+[2.350s] writing top-level names to multi.egg-info/top_level.txt
+[2.371s] reading manifest file 'multi.egg-info/SOURCES.txt'
+[2.372s] writing manifest file 'multi.egg-info/SOURCES.txt'
+[2.383s] running build_ext
+[2.383s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages/multi.egg-link (link to .)
+[2.383s] Installing costmap_publish script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[2.383s] Installing formation_update script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[2.383s] Installing slave_tf_listener script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[2.384s] Installing tf_listen script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[2.384s] Installing tf_publish script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[2.384s] 
+[2.384s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi
+[2.384s] running symlink_data
+[2.683s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/build --no-deps symlink_data

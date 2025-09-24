@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_cpp.hpp

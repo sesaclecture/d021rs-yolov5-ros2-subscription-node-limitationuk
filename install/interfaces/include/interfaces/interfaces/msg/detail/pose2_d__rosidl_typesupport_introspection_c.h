@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h

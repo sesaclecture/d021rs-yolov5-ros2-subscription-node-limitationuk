@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/color_detect/color_detect_node.launch.py

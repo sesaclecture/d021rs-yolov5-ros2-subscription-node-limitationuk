@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/ros2_ws/src/app/launch/ar_app_node.launch.py

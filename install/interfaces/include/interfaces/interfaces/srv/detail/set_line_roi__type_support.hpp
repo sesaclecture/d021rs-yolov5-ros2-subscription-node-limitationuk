@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/set_line_roi__type_support.hpp

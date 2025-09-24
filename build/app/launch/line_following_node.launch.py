@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/ros2_ws/src/app/launch/line_following_node.launch.py

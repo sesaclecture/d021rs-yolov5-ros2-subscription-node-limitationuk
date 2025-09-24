@@ -1,0 +1,26 @@
+[1.475s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/build --no-deps symlink_data
+[1.710s] running develop
+[1.710s] running egg_info
+[1.710s] creating bringup.egg-info
+[1.710s] writing bringup.egg-info/PKG-INFO
+[1.710s] writing dependency_links to bringup.egg-info/dependency_links.txt
+[1.710s] writing entry points to bringup.egg-info/entry_points.txt
+[1.710s] writing requirements to bringup.egg-info/requires.txt
+[1.710s] writing top-level names to bringup.egg-info/top_level.txt
+[1.710s] writing manifest file 'bringup.egg-info/SOURCES.txt'
+[1.718s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.718s]   warnings.warn(msg)
+[1.724s] reading manifest file 'bringup.egg-info/SOURCES.txt'
+[1.724s] writing manifest file 'bringup.egg-info/SOURCES.txt'
+[1.733s] running build_ext
+[1.733s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/python3.12/site-packages/bringup.egg-link (link to .)
+[1.738s] Installing startup_check script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/bringup
+[1.738s] 
+[1.738s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup
+[1.738s] running symlink_data
+[1.738s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/ament_index/resource_index/packages
+[1.738s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/resource/bringup -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/ament_index/resource_index/packages
+[1.738s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup
+[1.738s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup/launch
+[1.738s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/launch/bringup.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/share/bringup/launch
+[1.873s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/bringup/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/bringup/build --no-deps symlink_data

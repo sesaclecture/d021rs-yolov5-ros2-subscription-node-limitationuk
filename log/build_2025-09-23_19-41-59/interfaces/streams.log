@@ -1,0 +1,878 @@
+[0.621s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/ros2_ws/src/interfaces -DPython3_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -DPYTHON_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces
+[1.052s] -- The C compiler identification is GNU 13.3.0
+[1.052s] -- The CXX compiler identification is GNU 13.3.0
+[1.052s] -- Detecting C compiler ABI info
+[1.052s] -- Detecting C compiler ABI info - done
+[1.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.052s] -- Detecting C compile features
+[1.052s] -- Detecting C compile features - done
+[1.052s] -- Detecting CXX compiler ABI info
+[1.052s] -- Detecting CXX compiler ABI info - done
+[1.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.052s] -- Detecting CXX compile features
+[1.053s] -- Detecting CXX compile features - done
+[1.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.053s] -- Found Python3: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.056s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.075s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.102s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.111s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.149s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.169s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.178s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.187s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.758s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.455s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.535s] -- Found PythonExtra: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3  
+[2.950s] -- Found Python3: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.995s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.012s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.014s] -- Added test 'lint_cmake' to check CMake code style
+[3.015s] -- Added test 'xmllint' to check XML markup files
+[3.017s] -- Configuring done (2.4s)
+[3.063s] -- Generating done (0.0s)
+[3.070s] -- Build files have been written to: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces
+[3.077s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/ros2_ws/src/interfaces -DPython3_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -DPYTHON_EXECUTABLE=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces
+[3.079s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces -- -j10 -l10
+[3.119s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.124s] [  0%] Built target ament_cmake_python_symlink_interfaces
+[3.249s] running egg_info
+[3.257s] creating interfaces.egg-info
+[3.257s] writing interfaces.egg-info/PKG-INFO
+[3.257s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.257s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.257s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.279s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.279s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.296s] [  0%] Built target ament_cmake_python_build_interfaces_egg
+[3.355s] [  0%] Built target interfaces__rosidl_generator_type_description
+[3.363s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.370s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.437s] [  1%] Built target interfaces__cpp
+[4.745s] [  2%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_info__functions.c.o[0m
+[4.745s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/colors_info__description.c.o[0m
+[4.745s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_detect__description.c.o[0m
+[4.745s] [  2%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_info__type_support.c.o[0m
+[4.745s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_detect__functions.c.o[0m
+[4.745s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_detect__type_support.c.o[0m
+[4.745s] [  3%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_info__description.c.o[0m
+[4.745s] [  4%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/colors_info__functions.c.o[0m
+[4.746s] [  4%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/colors_info__type_support.c.o[0m
+[4.749s] [  4%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/line_roi__description.c.o[0m
+[4.796s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/object_info__type_support.c.o[0m
+[4.796s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/object_info__description.c.o[0m
+[4.796s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/object_info__functions.c.o[0m
+[4.796s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/line_roi__functions.c.o[0m
+[4.796s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/objects_info__description.c.o[0m
+[4.796s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/line_roi__type_support.c.o[0m
+[4.796s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/objects_info__type_support.c.o[0m
+[4.799s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/objects_info__functions.c.o[0m
+[4.799s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pixel_position__functions.c.o[0m
+[4.800s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pixel_position__description.c.o[0m
+[4.814s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pixel_position__type_support.c.o[0m
+[4.816s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/point2_d__description.c.o[0m
+[4.816s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/point2_d__functions.c.o[0m
+[4.826s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/point2_d__type_support.c.o[0m
+[4.828s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/points__functions.c.o[0m
+[4.830s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/points__type_support.c.o[0m
+[4.831s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/points__description.c.o[0m
+[4.834s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pose2_d__description.c.o[0m
+[4.840s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pose2_d__type_support.c.o[0m
+[4.840s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/roi__description.c.o[0m
+[4.841s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pose2_d__functions.c.o[0m
+[4.841s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/roi__type_support.c.o[0m
+[4.842s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/roi__functions.c.o[0m
+[4.854s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_pose__description.c.o[0m
+[4.855s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_pose__type_support.c.o[0m
+[4.857s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_circle_roi__description.c.o[0m
+[4.858s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_pose__functions.c.o[0m
+[4.866s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_circle_roi__functions.c.o[0m
+[4.866s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_detect_param__functions.c.o[0m
+[4.867s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_detect_param__type_support.c.o[0m
+[4.867s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_detect_param__description.c.o[0m
+[4.867s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_circle_roi__type_support.c.o[0m
+[4.877s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_rgba__description.c.o[0m
+[4.877s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_rgba__functions.c.o[0m
+[4.883s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_rgba__type_support.c.o[0m
+[4.895s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64_list__description.c.o[0m
+[4.901s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64_list__functions.c.o[0m
+[4.903s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64_list__type_support.c.o[0m
+[4.907s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64__description.c.o[0m
+[4.913s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64__functions.c.o[0m
+[4.914s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64__type_support.c.o[0m
+[4.914s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_int64__description.c.o[0m
+[4.923s] [ 21%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_int64__functions.c.o[0m
+[4.927s] [ 21%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_int64__type_support.c.o[0m
+[4.930s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_line_roi__functions.c.o[0m
+[4.932s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_line_roi__description.c.o[0m
+[4.942s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_line_roi__type_support.c.o[0m
+[4.952s] [ 23%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_point__description.c.o[0m
+[4.959s] [ 23%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_point__functions.c.o[0m
+[4.962s] [ 23%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_point__type_support.c.o[0m
+[4.964s] [ 23%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose2_d__functions.c.o[0m
+[4.972s] [ 24%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose2_d__description.c.o[0m
+[4.986s] [ 24%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose__description.c.o[0m
+[4.986s] [ 24%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose__functions.c.o[0m
+[4.986s] [ 25%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose2_d__type_support.c.o[0m
+[4.989s] [ 26%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose__type_support.c.o[0m
+[5.010s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string_list__type_support.c.o[0m
+[5.012s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string_list__description.c.o[0m
+[5.018s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string_list__functions.c.o[0m
+[5.018s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string__description.c.o[0m
+[5.025s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string__type_support.c.o[0m
+[5.028s] [ 28%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string__functions.c.o[0m
+[5.082s] [ 28%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[5.119s] [ 28%] Built target interfaces__rosidl_generator_c
+[5.130s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.130s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.130s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.134s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.134s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.134s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.745s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/color_detect__type_support.cpp.o[0m
+[5.756s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/color_info__type_support.cpp.o[0m
+[5.774s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/colors_info__type_support.cpp.o[0m
+[5.777s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/line_roi__type_support.cpp.o[0m
+[5.787s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/object_info__type_support.cpp.o[0m
+[5.839s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/color_detect__type_support.cpp.o[0m
+[5.851s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/objects_info__type_support.cpp.o[0m
+[5.852s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/colors_info__type_support.cpp.o[0m
+[5.852s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/color_info__type_support.cpp.o[0m
+[5.855s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/point2_d__type_support.cpp.o[0m
+[5.856s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/pixel_position__type_support.cpp.o[0m
+[5.896s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/points__type_support.cpp.o[0m
+[5.901s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/pose2_d__type_support.cpp.o[0m
+[5.907s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/line_roi__type_support.cpp.o[0m
+[5.947s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/roi__type_support.cpp.o[0m
+[5.956s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/get_pose__type_support.cpp.o[0m
+[6.002s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_color_detect_param__type_support.cpp.o[0m
+[6.002s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_circle_roi__type_support.cpp.o[0m
+[6.052s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_color_rgba__type_support.cpp.o[0m
+[6.067s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/object_info__type_support.cpp.o[0m
+[6.107s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_float64_list__type_support.cpp.o[0m
+[6.147s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_int64__type_support.cpp.o[0m
+[6.148s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_float64__type_support.cpp.o[0m
+[6.180s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/objects_info__type_support.cpp.o[0m
+[6.183s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/pixel_position__type_support.cpp.o[0m
+[6.203s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_line_roi__type_support.cpp.o[0m
+[6.234s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/point2_d__type_support.cpp.o[0m
+[6.251s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/points__type_support.cpp.o[0m
+[6.280s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_point__type_support.cpp.o[0m
+[6.346s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/pose2_d__type_support.cpp.o[0m
+[6.360s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_pose2_d__type_support.cpp.o[0m
+[6.437s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_pose__type_support.cpp.o[0m
+[6.470s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/color_detect__type_support.cpp.o[0m
+[6.503s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_string_list__type_support.cpp.o[0m
+[6.520s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_string__type_support.cpp.o[0m
+[6.570s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/roi__type_support.cpp.o[0m
+[6.592s] [ 44%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[6.598s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/color_info__type_support.cpp.o[0m
+[6.628s] [ 45%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/color_detect__type_support.c.o[0m
+[6.662s] [ 45%] Built target interfaces__rosidl_typesupport_c
+[6.683s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/colors_info__type_support.cpp.o[0m
+[6.689s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/get_pose__type_support.cpp.o[0m
+[6.693s] [ 46%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/color_info__type_support.c.o[0m
+[6.698s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_circle_roi__type_support.cpp.o[0m
+[6.731s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_color_detect_param__type_support.cpp.o[0m
+[6.737s] [ 47%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/colors_info__type_support.c.o[0m
+[6.790s] [ 47%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/line_roi__type_support.c.o[0m
+[6.821s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_color_rgba__type_support.cpp.o[0m
+[6.837s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/object_info__type_support.c.o[0m
+[6.843s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_float64_list__type_support.cpp.o[0m
+[6.907s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/objects_info__type_support.c.o[0m
+[6.978s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/line_roi__type_support.cpp.o[0m
+[6.989s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/pixel_position__type_support.c.o[0m
+[7.050s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/object_info__type_support.cpp.o[0m
+[7.051s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/point2_d__type_support.c.o[0m
+[7.089s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_float64__type_support.cpp.o[0m
+[7.112s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/points__type_support.c.o[0m
+[7.115s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/objects_info__type_support.cpp.o[0m
+[7.130s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_int64__type_support.cpp.o[0m
+[7.153s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_line_roi__type_support.cpp.o[0m
+[7.160s] [ 53%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/pose2_d__type_support.c.o[0m
+[7.207s] [ 53%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/roi__type_support.c.o[0m
+[7.210s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pixel_position__type_support.cpp.o[0m
+[7.240s] [ 53%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/get_pose__type_support.c.o[0m
+[7.276s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/color_detect__type_support_c.cpp.o[0m
+[7.326s] [ 55%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_circle_roi__type_support.c.o[0m
+[7.388s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/color_detect__type_support.cpp.o[0m
+[7.399s] [ 55%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_color_detect_param__type_support.c.o[0m
+[7.419s] [ 56%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_color_rgba__type_support.c.o[0m
+[7.462s] [ 56%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_float64_list__type_support.c.o[0m
+[7.481s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point2_d__type_support.cpp.o[0m
+[7.492s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/color_info__type_support.cpp.o[0m
+[7.525s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_float64__type_support.c.o[0m
+[7.535s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/colors_info__type_support.cpp.o[0m
+[7.548s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_int64__type_support.c.o[0m
+[7.557s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/color_info__type_support_c.cpp.o[0m
+[7.600s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_point__type_support.cpp.o[0m
+[7.603s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/points__type_support.cpp.o[0m
+[7.606s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_line_roi__type_support.c.o[0m
+[7.660s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/line_roi__type_support.cpp.o[0m
+[7.687s] [ 60%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_point__type_support.c.o[0m
+[7.770s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_pose2_d__type_support.cpp.o[0m
+[7.774s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_pose2_d__type_support.c.o[0m
+[7.807s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_pose__type_support.c.o[0m
+[7.841s] [ 62%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_string_list__type_support.c.o[0m
+[7.876s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/object_info__type_support.cpp.o[0m
+[7.905s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/colors_info__type_support_c.cpp.o[0m
+[7.912s] [ 62%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_string__type_support.c.o[0m
+[7.935s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/objects_info__type_support.cpp.o[0m
+[7.967s] [ 62%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[8.019s] [ 62%] Built target interfaces__rosidl_typesupport_introspection_c
+[8.031s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_pose__type_support.cpp.o[0m
+[8.084s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pose2_d__type_support.cpp.o[0m
+[8.166s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/line_roi__type_support_c.cpp.o[0m
+[8.168s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_string_list__type_support.cpp.o[0m
+[8.181s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/object_info__type_support_c.cpp.o[0m
+[8.186s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/pixel_position__type_support.cpp.o[0m
+[8.340s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/roi__type_support.cpp.o[0m
+[8.361s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/objects_info__type_support_c.cpp.o[0m
+[8.368s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_string__type_support.cpp.o[0m
+[8.443s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/get_pose__type_support.cpp.o[0m
+[8.491s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/pixel_position__type_support_c.cpp.o[0m
+[8.578s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_circle_roi__type_support.cpp.o[0m
+[8.635s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[8.711s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/point2_d__type_support_c.cpp.o[0m
+[8.807s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_color_detect_param__type_support.cpp.o[0m
+[8.832s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/points__type_support_c.cpp.o[0m
+[8.836s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[8.888s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/roi__type_support_c.cpp.o[0m
+[8.954s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[9.009s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_color_rgba__type_support.cpp.o[0m
+[9.080s] [ 70%] Built target interfaces__rosidl_typesupport_cpp
+[9.087s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/points__type_support.cpp.o[0m
+[9.100s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/get_pose__type_support_c.cpp.o[0m
+[9.149s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_float64_list__type_support.cpp.o[0m
+[9.218s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_circle_roi__type_support_c.cpp.o[0m
+[9.296s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_color_detect_param__type_support_c.cpp.o[0m
+[9.340s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[9.349s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_color_rgba__type_support_c.cpp.o[0m
+[9.353s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_float64__type_support.cpp.o[0m
+[9.396s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_int64__type_support.cpp.o[0m
+[9.440s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_line_roi__type_support.cpp.o[0m
+[9.609s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/roi__type_support.cpp.o[0m
+[9.682s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_float64_list__type_support_c.cpp.o[0m
+[9.854s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_point__type_support.cpp.o[0m
+[9.872s] [ 76%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_float64__type_support_c.cpp.o[0m
+[9.903s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o[0m
+[9.945s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_pose2_d__type_support.cpp.o[0m
+[9.946s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_int64__type_support_c.cpp.o[0m
+[9.952s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_circle_roi__type_support.cpp.o[0m
+[10.039s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_line_roi__type_support_c.cpp.o[0m
+[10.042s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_color_detect_param__type_support.cpp.o[0m
+[10.165s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_color_rgba__type_support.cpp.o[0m
+[10.459s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_float64_list__type_support.cpp.o[0m
+[10.470s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[10.477s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_string_list__type_support.cpp.o[0m
+[10.488s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_point__type_support_c.cpp.o[0m
+[10.509s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_string__type_support.cpp.o[0m
+[10.607s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_pose2_d__type_support_c.cpp.o[0m
+[10.616s] [ 82%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[10.623s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_float64__type_support.cpp.o[0m
+[10.688s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_string_list__type_support_c.cpp.o[0m
+[10.730s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_int64__type_support.cpp.o[0m
+[10.800s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_string__type_support_c.cpp.o[0m
+[10.840s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_line_roi__type_support.cpp.o[0m
+[10.875s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_point__type_support.cpp.o[0m
+[10.881s] [ 84%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.910s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_pose2_d__type_support.cpp.o[0m
+[10.982s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[11.016s] [ 85%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_string_list__type_support.cpp.o[0m
+[11.016s] [ 85%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[11.028s] [ 85%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[11.152s] [ 86%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.212s] [ 86%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[11.373s] [ 87%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.452s] [ 87%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[11.468s] [ 87%] Built target interfaces
+[11.481s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.257s] [ 87%] Built target interfaces__py
+[13.271s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_line_roi_s.c.o[0m
+[13.271s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_object_info_s.c.o[0m
+[13.271s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_objects_info_s.c.o[0m
+[13.271s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_color_info_s.c.o[0m
+[13.271s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_pixel_position_s.c.o[0m
+[13.271s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_point2_d_s.c.o[0m
+[13.272s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_color_detect_s.c.o[0m
+[13.272s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_colors_info_s.c.o[0m
+[13.274s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_points_s.c.o[0m
+[13.275s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_pose2_d_s.c.o[0m
+[13.366s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_color_rgba_s.c.o[0m
+[13.366s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_float64_list_s.c.o[0m
+[13.366s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_float64_s.c.o[0m
+[13.366s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_int64_s.c.o[0m
+[13.366s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_roi_s.c.o[0m
+[13.366s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_get_pose_s.c.o[0m
+[13.366s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_circle_roi_s.c.o[0m
+[13.367s] [ 94%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_point_s.c.o[0m
+[13.368s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_color_detect_param_s.c.o[0m
+[13.370s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_line_roi_s.c.o[0m
+[13.435s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_pose2_d_s.c.o[0m
+[13.440s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_string_s.c.o[0m
+[13.440s] [ 96%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_pose_s.c.o[0m
+[13.441s] [ 96%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_string_list_s.c.o[0m
+[13.549s] [ 97%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[13.582s] [ 97%] Built target interfaces__rosidl_generator_py
+[13.594s] [ 97%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.594s] [ 97%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.600s] [ 98%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.773s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[13.773s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.774s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[13.794s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[13.794s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[13.794s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[13.802s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces -- -j10 -l10
+[13.803s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces
+[13.809s] -- Install configuration: ""
+[13.809s] -- Execute custom install script
+[13.809s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[13.815s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorDetect.json
+[13.820s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorInfo.json
+[13.825s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorsInfo.json
+[13.830s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/LineROI.json
+[13.836s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectInfo.json
+[13.842s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectsInfo.json
+[13.847s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/PixelPosition.json
+[13.853s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Point2D.json
+[13.858s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Points.json
+[13.863s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Pose2D.json
+[13.868s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ROI.json
+[13.874s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/GetPose.json
+[13.879s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetCircleROI.json
+[13.884s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorDetectParam.json
+[13.889s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorRGBA.json
+[13.893s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64List.json
+[13.898s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64.json
+[13.903s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetInt64.json
+[13.909s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetLineROI.json
+[13.914s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPoint.json
+[13.919s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose2D.json
+[13.925s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose.json
+[13.930s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetStringList.json
+[13.936s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetString.json
+[13.942s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/color_detect.h
+[13.947s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/color_info.h
+[13.952s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/colors_info.h
+[13.957s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__functions.h
+[13.963s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.h
+[13.968s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.h
+[13.973s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__functions.h
+[13.979s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.h
+[13.985s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.h
+[13.990s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__functions.h
+[13.995s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.h
+[14.000s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.h
+[14.005s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__functions.h
+[14.011s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.h
+[14.016s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.h
+[14.021s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__functions.h
+[14.027s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.h
+[14.034s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.h
+[14.039s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__functions.h
+[14.044s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.h
+[14.050s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.h
+[14.055s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__functions.h
+[14.060s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.h
+[14.066s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.h
+[14.071s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__functions.h
+[14.076s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.h
+[14.081s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.h
+[14.086s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__functions.h
+[14.091s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.h
+[14.097s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.h
+[14.102s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__functions.h
+[14.108s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.h
+[14.113s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.h
+[14.118s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__functions.h
+[14.123s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.h
+[14.129s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.h
+[14.134s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/line_roi.h
+[14.139s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/object_info.h
+[14.145s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/objects_info.h
+[14.150s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/pixel_position.h
+[14.156s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/point2_d.h
+[14.161s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/points.h
+[14.166s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/pose2_d.h
+[14.171s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/roi.h
+[14.176s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.221s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__functions.h
+[14.227s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.h
+[14.233s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.h
+[14.238s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__functions.h
+[14.244s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.h
+[14.250s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.h
+[14.256s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__functions.h
+[14.261s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.h
+[14.267s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.h
+[14.272s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__functions.h
+[14.277s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.h
+[14.282s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.h
+[14.287s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__functions.h
+[14.292s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.h
+[14.297s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.h
+[14.302s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__functions.h
+[14.307s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.h
+[14.312s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.h
+[14.317s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__functions.h
+[14.323s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.h
+[14.328s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.h
+[14.334s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__functions.h
+[14.339s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.h
+[14.344s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.h
+[14.349s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__functions.h
+[14.354s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.h
+[14.360s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.h
+[14.364s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__functions.h
+[14.370s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.h
+[14.375s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.h
+[14.380s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__functions.h
+[14.385s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.h
+[14.391s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.h
+[14.397s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__functions.h
+[14.402s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.h
+[14.407s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.h
+[14.413s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__functions.h
+[14.418s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.h
+[14.423s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.h
+[14.427s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/get_pose.h
+[14.433s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.h
+[14.440s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.h
+[14.445s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.h
+[14.450s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_float64.h
+[14.456s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.h
+[14.461s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_int64.h
+[14.467s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.h
+[14.472s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_point.h
+[14.477s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_pose.h
+[14.482s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.h
+[14.487s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_string.h
+[14.494s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_string_list.h
+[14.499s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/library_path.sh
+[14.504s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/library_path.dsv
+[14.510s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_c.h
+[14.515s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h
+[14.520s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_c.h
+[14.525s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_c.h
+[14.530s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h
+[14.535s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_c.h
+[14.540s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_c.h
+[14.545s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[14.550s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_c.h
+[14.556s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[14.560s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_c.h
+[14.565s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.570s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h
+[14.575s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_c.h
+[14.579s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_c.h
+[14.584s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_c.h
+[14.589s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h
+[14.593s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_c.h
+[14.598s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_c.h
+[14.605s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_c.h
+[14.610s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_c.h
+[14.615s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_c.h
+[14.619s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[14.627s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[14.632s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_c.h
+[14.639s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/color_detect.hpp
+[14.644s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/color_info.hpp
+[14.649s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/colors_info.hpp
+[14.654s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__builder.hpp
+[14.659s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.hpp
+[14.665s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__traits.hpp
+[14.671s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.hpp
+[14.676s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__builder.hpp
+[14.681s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.hpp
+[14.686s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__traits.hpp
+[14.690s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.hpp
+[14.695s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__builder.hpp
+[14.700s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.hpp
+[14.705s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__traits.hpp
+[14.709s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.hpp
+[14.714s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__builder.hpp
+[14.718s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.hpp
+[14.726s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__traits.hpp
+[14.731s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.hpp
+[14.736s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__builder.hpp
+[14.742s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.hpp
+[14.747s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__traits.hpp
+[14.752s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.hpp
+[14.757s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__builder.hpp
+[14.761s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.hpp
+[14.766s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__traits.hpp
+[14.771s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.hpp
+[14.776s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__builder.hpp
+[14.781s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.hpp
+[14.786s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__traits.hpp
+[14.790s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.hpp
+[14.795s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__builder.hpp
+[14.799s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.hpp
+[14.804s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__traits.hpp
+[14.809s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.hpp
+[14.813s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__builder.hpp
+[14.818s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.hpp
+[14.822s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__traits.hpp
+[14.827s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.hpp
+[14.832s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__builder.hpp
+[14.837s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.hpp
+[14.842s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__traits.hpp
+[14.848s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.hpp
+[14.852s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__builder.hpp
+[14.857s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.hpp
+[14.862s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__traits.hpp
+[14.867s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.hpp
+[14.872s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/line_roi.hpp
+[14.876s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/object_info.hpp
+[14.881s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/objects_info.hpp
+[14.886s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/pixel_position.hpp
+[14.890s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/point2_d.hpp
+[14.895s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/points.hpp
+[14.899s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/pose2_d.hpp
+[14.904s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/roi.hpp
+[14.908s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.913s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__builder.hpp
+[14.918s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.hpp
+[14.923s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__traits.hpp
+[14.927s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.hpp
+[14.932s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__builder.hpp
+[14.937s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.hpp
+[14.942s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__traits.hpp
+[14.947s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.hpp
+[14.952s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__builder.hpp
+[14.958s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.hpp
+[14.963s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__traits.hpp
+[14.968s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.hpp
+[14.973s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__builder.hpp
+[14.978s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.hpp
+[14.983s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__traits.hpp
+[14.987s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.hpp
+[14.992s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__builder.hpp
+[14.996s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.hpp
+[15.001s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__traits.hpp
+[15.006s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.hpp
+[15.010s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__builder.hpp
+[15.015s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.hpp
+[15.019s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__traits.hpp
+[15.024s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.hpp
+[15.028s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__builder.hpp
+[15.035s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.hpp
+[15.040s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__traits.hpp
+[15.045s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.hpp
+[15.050s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__builder.hpp
+[15.054s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.hpp
+[15.059s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__traits.hpp
+[15.064s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.hpp
+[15.069s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__builder.hpp
+[15.074s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.hpp
+[15.079s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__traits.hpp
+[15.083s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.hpp
+[15.088s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__builder.hpp
+[15.093s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.hpp
+[15.100s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__traits.hpp
+[15.105s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.hpp
+[15.109s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__builder.hpp
+[15.114s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.hpp
+[15.120s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__traits.hpp
+[15.126s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.hpp
+[15.131s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__builder.hpp
+[15.137s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.hpp
+[15.142s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__traits.hpp
+[15.147s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.hpp
+[15.152s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__builder.hpp
+[15.157s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.hpp
+[15.164s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__traits.hpp
+[15.169s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.hpp
+[15.174s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/get_pose.hpp
+[15.179s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.hpp
+[15.184s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.hpp
+[15.190s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.hpp
+[15.195s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_float64.hpp
+[15.200s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.hpp
+[15.205s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_int64.hpp
+[15.209s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.hpp
+[15.214s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_point.hpp
+[15.220s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_pose.hpp
+[15.225s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.hpp
+[15.234s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_string.hpp
+[15.239s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/set_string_list.hpp
+[15.246s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_cpp.hpp
+[15.252s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.257s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.262s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[15.267s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.271s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.276s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_cpp.hpp
+[15.281s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.286s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_cpp.hpp
+[15.291s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.296s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp
+[15.301s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.306s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[15.310s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[15.315s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_cpp.hpp
+[15.320s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_cpp.hpp
+[15.325s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_cpp.hpp
+[15.331s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_cpp.hpp
+[15.337s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_cpp.hpp
+[15.343s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[15.349s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_cpp.hpp
+[15.354s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.364s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[15.369s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[15.374s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_cpp.hpp
+[15.380s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_c.h
+[15.385s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_c.h
+[15.391s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_c.h
+[15.396s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_c.h
+[15.401s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_c.h
+[15.406s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_c.h
+[15.411s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_c.h
+[15.416s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[15.421s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_c.h
+[15.427s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[15.432s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_c.h
+[15.437s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.442s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_c.h
+[15.448s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_c.h
+[15.453s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_c.h
+[15.458s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_c.h
+[15.463s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_c.h
+[15.468s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_c.h
+[15.473s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_c.h
+[15.479s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_c.h
+[15.484s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_c.h
+[15.489s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_c.h
+[15.494s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[15.499s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[15.504s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_c.h
+[15.509s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_cpp.hpp
+[15.514s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp
+[15.518s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_cpp.hpp
+[15.523s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_cpp.hpp
+[15.531s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp
+[15.540s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_cpp.hpp
+[15.545s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_cpp.hpp
+[15.550s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.555s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_cpp.hpp
+[15.560s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.566s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp
+[15.572s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp
+[15.578s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_cpp.hpp
+[15.583s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_cpp.hpp
+[15.588s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_cpp.hpp
+[15.593s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_cpp.hpp
+[15.597s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_cpp.hpp
+[15.602s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_cpp.hpp
+[15.607s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_cpp.hpp
+[15.615s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_cpp.hpp
+[15.622s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.627s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[15.633s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[15.638s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_cpp.hpp
+[15.644s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/pythonpath.sh
+[15.650s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[15.657s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[15.663s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.670s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.675s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[15.682s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[15.689s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[15.694s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.699s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.703s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[15.708s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[15.713s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[15.720s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[15.728s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_detect.py
+[15.733s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_detect_s.c
+[15.738s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_info.py
+[15.743s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_info_s.c
+[15.749s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_colors_info.py
+[15.756s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_colors_info_s.c
+[15.761s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_line_roi.py
+[15.766s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_line_roi_s.c
+[15.771s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_object_info.py
+[15.776s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_object_info_s.c
+[15.782s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_objects_info.py
+[15.787s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_objects_info_s.c
+[15.792s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pixel_position.py
+[15.797s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pixel_position_s.c
+[15.801s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_point2_d.py
+[15.806s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_point2_d_s.c
+[15.811s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_points.py
+[15.816s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_points_s.c
+[15.821s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pose2_d.py
+[15.825s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pose2_d_s.c
+[15.830s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_roi.py
+[15.836s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_roi_s.c
+[15.841s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py
+[15.846s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_pose.py
+[15.853s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_pose_s.c
+[15.860s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_circle_roi.py
+[15.865s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_circle_roi_s.c
+[15.870s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_detect_param.py
+[15.874s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_detect_param_s.c
+[15.879s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_rgba.py
+[15.884s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_rgba_s.c
+[15.891s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64.py
+[15.896s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64_list.py
+[15.902s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64_list_s.c
+[15.907s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64_s.c
+[15.912s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_int64.py
+[15.921s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_int64_s.c
+[15.927s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_line_roi.py
+[15.933s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_line_roi_s.c
+[15.939s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_point.py
+[15.944s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_point_s.c
+[15.951s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose.py
+[15.956s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose2_d.py
+[15.961s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose2_d_s.c
+[15.966s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose_s.c
+[15.970s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string.py
+[15.975s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string_list.py
+[15.980s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string_list_s.c
+[15.985s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string_s.c
+[15.990s] -- Up-to-date symlink: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[15.991s] -- Up-to-date symlink: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[15.991s] -- Up-to-date symlink: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[15.991s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorDetect.idl
+[16.031s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorInfo.idl
+[16.038s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorsInfo.idl
+[16.046s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/LineROI.idl
+[16.052s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectInfo.idl
+[16.057s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectsInfo.idl
+[16.062s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/PixelPosition.idl
+[16.067s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Point2D.idl
+[16.073s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Points.idl
+[16.078s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Pose2D.idl
+[16.083s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ROI.idl
+[16.088s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/GetPose.idl
+[16.093s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetCircleROI.idl
+[16.098s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorDetectParam.idl
+[16.103s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorRGBA.idl
+[16.108s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64List.idl
+[16.112s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64.idl
+[16.117s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetInt64.idl
+[16.124s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetLineROI.idl
+[16.129s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPoint.idl
+[16.136s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose2D.idl
+[16.141s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose.idl
+[16.147s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetStringList.idl
+[16.152s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetString.idl
+[16.157s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorDetect.msg
+[16.162s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorInfo.msg
+[16.168s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ColorsInfo.msg
+[16.173s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/LineROI.msg
+[16.178s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectInfo.msg
+[16.183s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ObjectsInfo.msg
+[16.188s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/PixelPosition.msg
+[16.193s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Point2D.msg
+[16.198s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Points.msg
+[16.203s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/Pose2D.msg
+[16.207s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/msg/ROI.msg
+[16.212s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/GetPose.srv
+[16.217s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetCircleROI.srv
+[16.222s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorDetectParam.srv
+[16.227s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetColorRGBA.srv
+[16.232s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64List.srv
+[16.239s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetFloat64.srv
+[16.244s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetInt64.srv
+[16.249s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetLineROI.srv
+[16.255s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPoint.srv
+[16.260s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose2D.srv
+[16.265s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetPose.srv
+[16.270s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetStringList.srv
+[16.274s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/srv/SetString.srv
+[16.279s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/mapping_rules.yaml
+[16.286s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[16.291s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[16.297s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[16.303s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[16.309s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/path.sh
+[16.314s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/environment/path.dsv
+[16.319s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/local_setup.bash
+[16.327s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/local_setup.sh
+[16.332s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/local_setup.zsh
+[16.337s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/local_setup.dsv
+[16.345s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/package.dsv
+[16.350s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[16.355s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[16.360s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.365s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.369s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.374s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.379s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.384s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.390s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[16.394s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[16.399s] -- Symlinking: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/package.xml
+[16.404s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[16.404s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[16.404s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[16.404s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.405s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.405s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.405s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[16.406s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.406s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[16.406s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[16.406s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[16.406s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.407s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[16.408s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[16.468s] Listing '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[16.468s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[16.468s] Listing '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[16.468s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_detect.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_color_info.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_colors_info.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_line_roi.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_object_info.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_objects_info.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pixel_position.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_point2_d.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_points.py'...
+[16.469s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_pose2_d.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_roi.py'...
+[16.470s] Listing '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_pose.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_circle_roi.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_detect_param.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_color_rgba.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_float64_list.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_int64.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_line_roi.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_point.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_pose2_d.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string.py'...
+[16.470s] Compiling '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_set_string_list.py'...
+[16.471s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[16.473s] -- Set non-toolchain portion of runtime path of "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[16.473s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[16.473s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.474s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.474s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.474s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[16.474s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.475s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.476s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[16.476s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.476s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[16.476s] -- Installing: /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.478s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/yolov5_ros2:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/slam:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/sdk:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/ros_robot_controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/peripherals:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/navigation:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/multi:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/mentorpi_description:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/example:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/controller:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/calibration:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/bringup:/home/intel/repo/d021rs-yolov5-ros2-limitationuk/ros2_ws/install/app:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces

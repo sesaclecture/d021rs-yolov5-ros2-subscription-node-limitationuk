@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/yolosub
+yolosub/__init__.py
+yolosub/subscribe.py
+yolosub.egg-info/PKG-INFO
+yolosub.egg-info/SOURCES.txt
+yolosub.egg-info/dependency_links.txt
+yolosub.egg-info/entry_points.txt
+yolosub.egg-info/requires.txt
+yolosub.egg-info/top_level.txt
+yolosub.egg-info/zip-safe

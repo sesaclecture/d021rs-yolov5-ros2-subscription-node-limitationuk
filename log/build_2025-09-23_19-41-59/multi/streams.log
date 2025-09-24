@@ -1,0 +1,43 @@
+[1.424s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/build --no-deps symlink_data
+[1.556s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.556s]   warnings.warn(msg)
+[1.631s] running develop
+[1.723s] running egg_info
+[1.731s] creating multi.egg-info
+[1.731s] writing multi.egg-info/PKG-INFO
+[1.732s] writing dependency_links to multi.egg-info/dependency_links.txt
+[1.732s] writing entry points to multi.egg-info/entry_points.txt
+[1.732s] writing requirements to multi.egg-info/requires.txt
+[1.732s] writing top-level names to multi.egg-info/top_level.txt
+[1.732s] writing manifest file 'multi.egg-info/SOURCES.txt'
+[1.750s] reading manifest file 'multi.egg-info/SOURCES.txt'
+[1.750s] writing manifest file 'multi.egg-info/SOURCES.txt'
+[1.759s] running build_ext
+[1.759s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages/multi.egg-link (link to .)
+[1.759s] Installing costmap_publish script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[1.760s] Installing formation_update script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[1.760s] Installing slave_tf_listener script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[1.760s] Installing tf_listen script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[1.760s] Installing tf_publish script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/multi
+[1.760s] 
+[1.760s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi
+[1.760s] running symlink_data
+[1.760s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/ament_index/resource_index/packages
+[1.760s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/resource/multi -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/ament_index/resource_index/packages
+[1.760s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi
+[1.760s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/launch
+[1.760s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/launch/multi_controller.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/launch
+[1.760s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/launch/joystick_control_multi.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/launch
+[1.760s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/launch/joy_control.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/launch
+[1.760s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/launch/include
+[1.760s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/lidar_filters_config_ld19.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/lidar_filters_config_a1.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/camera_info.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/lidar_filters_config_g4.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/lidar_filters_config_ld14p.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/config/usb_cam_param.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/config
+[1.761s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/rviz
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/rviz/imu_view.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/rviz
+[1.761s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/rviz/lidar_view.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/share/multi/rviz
+[1.871s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/multi/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/multi/build --no-deps symlink_data

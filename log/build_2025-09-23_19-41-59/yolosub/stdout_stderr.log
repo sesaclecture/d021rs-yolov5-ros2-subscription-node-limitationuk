@@ -1,0 +1,22 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating yolosub.egg-info
+writing yolosub.egg-info/PKG-INFO
+writing dependency_links to yolosub.egg-info/dependency_links.txt
+writing entry points to yolosub.egg-info/entry_points.txt
+writing requirements to yolosub.egg-info/requires.txt
+writing top-level names to yolosub.egg-info/top_level.txt
+writing manifest file 'yolosub.egg-info/SOURCES.txt'
+reading manifest file 'yolosub.egg-info/SOURCES.txt'
+writing manifest file 'yolosub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolosub/lib/python3.12/site-packages/yolosub.egg-link (link to .)
+Installing subscribe script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolosub/lib/yolosub
+
+Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolosub
+running symlink_data
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolosub/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolosub/resource/yolosub -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolosub/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/yolosub/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/yolosub/share/yolosub

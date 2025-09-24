@@ -1,0 +1,22 @@
+[0.717s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/build --no-deps symlink_data
+[0.805s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.805s]   warnings.warn(msg)
+[0.865s] running develop
+[0.936s] running egg_info
+[0.944s] creating sdk.egg-info
+[0.944s] writing sdk.egg-info/PKG-INFO
+[0.944s] writing dependency_links to sdk.egg-info/dependency_links.txt
+[0.944s] writing requirements to sdk.egg-info/requires.txt
+[0.944s] writing top-level names to sdk.egg-info/top_level.txt
+[0.944s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[0.959s] reading manifest file 'sdk.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[0.968s] running build_ext
+[0.968s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/lib/python3.12/site-packages/sdk.egg-link (link to .)
+[0.968s] 
+[0.968s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk
+[0.970s] running symlink_data
+[0.970s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/share/ament_index/resource_index/packages
+[0.970s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/resource/sdk -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/share/sdk
+[0.995s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/sdk/build --no-deps symlink_data

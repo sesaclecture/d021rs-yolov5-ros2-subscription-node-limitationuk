@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/SetFloat64_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/SetFloat64_Request",
+      "hash_string": "RIHS01_21d33144798a7e8b42a0ace682b214db074d2e0a38382a0faf94c1c71413717f"
+    }
+  ]
+}

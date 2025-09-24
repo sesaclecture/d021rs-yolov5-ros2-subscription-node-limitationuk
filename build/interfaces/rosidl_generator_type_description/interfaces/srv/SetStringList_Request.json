@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/SetStringList_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/SetStringList_Request",
+      "hash_string": "RIHS01_3a4d455d36243da2dac67298a14efde3c495b0aa07d98213c7b801bc3164c0d6"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-785ca601709d88ea7b5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "ros_robot_controller_msgs__py",
+					"jsonFile" : "directory-ros_robot_controller_msgs__py-66165f3c2da22aa952d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/ros_robot_controller_msgs/ros_robot_controller_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_robot_controller_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_robot_controller_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_robot_controller_msgs_egg-46ede129197ffaab0e05.json",
+					"name" : "ament_cmake_python_build_ros_robot_controller_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ros_robot_controller_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ros_robot_controller_msgs-4b8af67e2b98956b1008.json",
+					"name" : "ament_cmake_python_symlink_ros_robot_controller_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs-b02fe1741631c61a179f.json",
+					"name" : "ros_robot_controller_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__cpp-e0f6e49b5008564a4f60.json",
+					"name" : "ros_robot_controller_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_robot_controller_msgs__py::@ad8cb82c907a5dffb0fb",
+					"jsonFile" : "target-ros_robot_controller_msgs__py-ccab2342409c33b2d1ea.json",
+					"name" : "ros_robot_controller_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_generator_c-9cf2b991f87f2c5a97b0.json",
+					"name" : "ros_robot_controller_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_generator_py-7fb3795abd45240603ce.json",
+					"name" : "ros_robot_controller_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_generator_type_description-0633c12e71bd364c97f5.json",
+					"name" : "ros_robot_controller_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_c-7a96a8f45fbab68d8f4e.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_cpp-e92dc8a1e5a35a2fee92.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c-2f82a13eb6b16e40de3a.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp-5401cfe0cdde4e9c501f.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_introspection_c-c822d6a5c2fbaa98c89d.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp-5b66df4db10398b5482e.json",
+					"name" : "ros_robot_controller_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs_s__rosidl_typesupport_c-fd3004f2274aeeb8f116.json",
+					"name" : "ros_robot_controller_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c-b2bde3c59e4d9da9b681.json",
+					"name" : "ros_robot_controller_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c-5161e77e608069c45e8f.json",
+					"name" : "ros_robot_controller_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_robot_controller_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_robot_controller_msgs_uninstall-a6967e9c81ad6d482cc4.json",
+					"name" : "ros_robot_controller_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6dab866593b21e391c77.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/ros_robot_controller_msgs",
+		"source" : "/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/ros2_ws/src/driver/ros_robot_controller_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating calibration.egg-info
+writing calibration.egg-info/PKG-INFO
+writing dependency_links to calibration.egg-info/dependency_links.txt
+writing entry points to calibration.egg-info/entry_points.txt
+writing requirements to calibration.egg-info/requires.txt
+writing top-level names to calibration.egg-info/top_level.txt
+writing manifest file 'calibration.egg-info/SOURCES.txt'
+reading manifest file 'calibration.egg-info/SOURCES.txt'
+writing manifest file 'calibration.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/python3.12/site-packages/calibration.egg-link (link to .)
+Installing calibrate_angular script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/calibration
+Installing calibrate_linear script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/lib/calibration
+
+Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration
+running symlink_data
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/resource/calibration -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/launch/linear_calib.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/launch/angular_calib.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/launch
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/config/imu_calib.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/calibration/config/bk.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/calibration/share/calibration/config

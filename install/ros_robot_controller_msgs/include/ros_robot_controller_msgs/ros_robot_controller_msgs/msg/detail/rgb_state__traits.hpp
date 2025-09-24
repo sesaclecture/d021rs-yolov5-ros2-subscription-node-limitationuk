@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/ros_robot_controller_msgs/rosidl_generator_cpp/ros_robot_controller_msgs/msg/detail/rgb_state__traits.hpp

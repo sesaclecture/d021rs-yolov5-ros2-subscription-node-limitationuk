@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/SetColorDetectParam_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "interfaces/msg/ColorDetect"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "interfaces/msg/ColorDetect",
+        "fields": [
+          {
+            "name": "color_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "detect_type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/SetColorDetectParam_Request",
+      "hash_string": "RIHS01_b619cda51738976c5e5af426dd978aaedf8b5b8754a837aa0f18300747d8a6bd"
+    },
+    {
+      "type_name": "interfaces/msg/ColorDetect",
+      "hash_string": "RIHS01_37b3c76d789616a1c866e061b5661d9c4846449a3c9afe01a34797c712514b46"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[1.482s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/build --no-deps symlink_data
+[1.734s] running develop
+[1.734s] running egg_info
+[1.734s] creating app.egg-info
+[1.734s] writing app.egg-info/PKG-INFO
+[1.734s] writing dependency_links to app.egg-info/dependency_links.txt
+[1.734s] writing entry points to app.egg-info/entry_points.txt
+[1.734s] writing requirements to app.egg-info/requires.txt
+[1.734s] writing top-level names to app.egg-info/top_level.txt
+[1.735s] writing manifest file 'app.egg-info/SOURCES.txt'
+[1.735s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.735s]   warnings.warn(msg)
+[1.752s] reading manifest file 'app.egg-info/SOURCES.txt'
+[1.752s] writing manifest file 'app.egg-info/SOURCES.txt'
+[1.761s] running build_ext
+[1.762s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/python3.12/site-packages/app.egg-link (link to .)
+[1.762s] Installing ar_app script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.762s] Installing hand_gesture script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.762s] Installing hand_trajectory script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.762s] Installing lidar_controller script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.762s] Installing line_following script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.762s] Installing object_tracking script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/app
+[1.763s] 
+[1.763s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app
+[1.763s] running symlink_data
+[1.763s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/ament_index/resource_index/packages
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/resource/app -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/ament_index/resource_index/packages
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app
+[1.763s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/line_following_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/object_tracking_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/ar_app_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/hand_gesture_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/lidar_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/launch/start_app.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/launch
+[1.763s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/model.jpg -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/pirate-ship-fat.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/wolf.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/cow.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/bicycle.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.763s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/fox.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/rat.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.766s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/models/chair.obj -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/share/app/models
+[1.874s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/app/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/app/build --no-deps symlink_data

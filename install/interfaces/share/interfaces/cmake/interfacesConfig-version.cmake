@@ -1,0 +1,1 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/interfaces/ament_cmake_core/interfacesConfig-version.cmake

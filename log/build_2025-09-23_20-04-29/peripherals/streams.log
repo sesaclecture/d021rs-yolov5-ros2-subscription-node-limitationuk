@@ -1,0 +1,21 @@
+[1.718s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals/build --no-deps symlink_data
+[1.813s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.813s]   warnings.warn(msg)
+[1.949s] running develop
+[2.113s] running egg_info
+[2.132s] writing peripherals.egg-info/PKG-INFO
+[2.132s] writing dependency_links to peripherals.egg-info/dependency_links.txt
+[2.132s] writing entry points to peripherals.egg-info/entry_points.txt
+[2.132s] writing requirements to peripherals.egg-info/requires.txt
+[2.132s] writing top-level names to peripherals.egg-info/top_level.txt
+[2.168s] reading manifest file 'peripherals.egg-info/SOURCES.txt'
+[2.168s] writing manifest file 'peripherals.egg-info/SOURCES.txt'
+[2.185s] running build_ext
+[2.185s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/python3.12/site-packages/peripherals.egg-link (link to .)
+[2.189s] Installing joystick_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/peripherals
+[2.190s] Installing teleop_key_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/peripherals
+[2.190s] Installing tf_broadcaster_imu script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/peripherals
+[2.190s] 
+[2.190s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals
+[2.190s] running symlink_data
+[2.254s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/peripherals/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/peripherals/build --no-deps symlink_data

@@ -1,0 +1,70 @@
+/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating example.egg-info
+writing example.egg-info/PKG-INFO
+writing dependency_links to example.egg-info/dependency_links.txt
+writing entry points to example.egg-info/entry_points.txt
+writing requirements to example.egg-info/requires.txt
+writing top-level names to example.egg-info/top_level.txt
+writing manifest file 'example.egg-info/SOURCES.txt'
+reading manifest file 'example.egg-info/SOURCES.txt'
+writing manifest file 'example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/python3.12/site-packages/example.egg-link (link to .)
+Installing automatic_pick script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_and_rgb_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing body_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_sorting script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing color_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing cross_bridge script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing fall_down_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing finger_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing garbage_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_detect script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_gesture_control script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_track script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing hand_trajectory script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing line_follow_clean script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing navigation_transport script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing object_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing prevent_falling script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing self_driving script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing track_and_grab script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing track_object script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing vc_object_classification script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing vc_track_and_grab script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+Installing yolov5_node script to /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/lib/example
+
+Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example
+running symlink_data
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/resource/example -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/ament_index/resource_index/packages
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/hand_track/hand_track_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/color_sorting/color_sorting_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/body_control/body_and_rgb_control.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/body_control/fall_down_detect.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/body_control/body_control.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/body_control/body_track.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/color_detect/color_detect_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/hand_trajectory/finger_control.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/hand_trajectory/hand_trajectory_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/color_track/color_track_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/self_driving/self_driving.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/example/hand_gesture_control/hand_gesture_control_node.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/launch
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/object_classification_plane_distance.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/automatic_pick_roi.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/bridge_plane_distance.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/roi.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/plane_distance.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/line_follow_clean_roi.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/color_sorting_roi.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/config/garbage_classification_roi.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/config
+creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/resource
+symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/example/resource/flag.dae -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/example/share/example/resource

@@ -1,0 +1,38 @@
+[1.460s] Invoking command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/build --no-deps symlink_data
+[1.844s] /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.844s]   warnings.warn(msg)
+[1.844s] running develop
+[1.844s] running egg_info
+[1.844s] creating navigation.egg-info
+[1.844s] writing navigation.egg-info/PKG-INFO
+[1.844s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[1.844s] writing requirements to navigation.egg-info/requires.txt
+[1.844s] writing top-level names to navigation.egg-info/top_level.txt
+[1.844s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[1.844s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[1.844s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[1.844s] running build_ext
+[1.844s] Creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/lib/python3.12/site-packages/navigation.egg-link (link to .)
+[1.844s] 
+[1.844s] Installed /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation
+[1.844s] running symlink_data
+[1.845s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/ament_index/resource_index/packages
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/resource/navigation -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/ament_index/resource_index/packages
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/package.xml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation
+[1.845s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/launch/navigation.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/launch/rtabmapviz.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/launch/rtabmap_navigation.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/launch/rviz_navigation.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/launch/rviz_rtabmap_navigation.launch.py -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/launch
+[1.845s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/config
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/config/nav2_controller_teb.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/config
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/config/nav2_controller_dwb.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/config
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/config/nav2_params.yaml -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/config
+[1.845s] creating /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/rviz/navigation.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/rviz/rtabmap.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/rviz/navigation_transport.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/rviz/navigation_desktop.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.845s] symbolically linking /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/rviz/rtabmap01.rviz -> /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/share/navigation/rviz
+[1.854s] Invoked command in '/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/prefix_override:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/intel/repo/d021rs-yolov5-ros2-subscription-node-limitationuk/build/navigation/build --no-deps symlink_data

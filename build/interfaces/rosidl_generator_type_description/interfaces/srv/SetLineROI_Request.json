@@ -1,0 +1,125 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/SetLineROI_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "interfaces/msg/LineROI"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "interfaces/msg/LineROI",
+        "fields": [
+          {
+            "name": "roi_up",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "interfaces/msg/ROI"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "roi_center",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "interfaces/msg/ROI"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "roi_down",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "interfaces/msg/ROI"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "interfaces/msg/ROI",
+        "fields": [
+          {
+            "name": "y_min",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y_max",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "x_min",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "x_max",
+            "type": {
+              "type_id": 4,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "scale",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/SetLineROI_Request",
+      "hash_string": "RIHS01_a9d9cce02f87b9d72dd19e7df29b05c318cdf2d5c48195fdc46b396de5e6d64a"
+    },
+    {
+      "type_name": "interfaces/msg/LineROI",
+      "hash_string": "RIHS01_05784f75a370cc79ba6447724659e5a23aa057fad8f26e0fb45925c9d9407e35"
+    },
+    {
+      "type_name": "interfaces/msg/ROI",
+      "hash_string": "RIHS01_572748b4eadc997d402aadc13c7a978bb895abc232438e385753172e8ca136e7"
+    }
+  ]
+}
